@@ -1,0 +1,15 @@
+language: ruby
+rvm:
+  - 2.3.1
+services:
+  - postgresql
+postgres:
+  adapter: postgresql
+  database: backend_test
+  username: vagrant
+before_script:
+  - psql -c 'create database backend_test;' -U vagrant
+  - bundle exec rake db:create db:migrate
+  - bundle exec rake db:test:prepare
+script: 
+  - bundle exec rails test
