@@ -8,6 +8,7 @@ postgres:
   database: backend_test
   username: vagrant
 before_script:
+  - psql -c "CREATE USER vagrant;" -U postgres
   - psql -c 'create database backend_test;' -U vagrant
   - bundle exec rake db:create db:migrate
   - bundle exec rake db:test:prepare
