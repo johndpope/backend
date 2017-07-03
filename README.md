@@ -1,9 +1,15 @@
-# README
+# Issues
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Setup
 
-Things you may want to cover:
+- Git clone the project: `git clone https://github.com/pepibumur/issues-backend.git`
+- Excute `bundle install` in the project dir
+- Install Vagramt from [here](https://www.vagrantup.com/)
+- Install VirtualBox from [here](https://www.virtualbox.org/wiki/Downloads)
+- Setup the Vagrant machine with `vagrant up`
+- Access the Vagrant machine with `vagrant ssh`
+- Voila :tada:, you can execute `bundle exec rails server` from there.
+
 
 * Ruby version
 

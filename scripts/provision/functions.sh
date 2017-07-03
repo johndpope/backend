@@ -52,5 +52,6 @@ function install_rvm {
       echo -e "\nInstalling Bundler:"
       su -l vagrant -c 'gem install bundler'
       su -l vagrant -c 'echo "gem: --no-rdoc --no-ri" >> /home/vagrant/.gemrc'
+      su -l vagrant -c 'cd /backend; bundle install;'
   fi
 }
