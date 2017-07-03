@@ -1,4 +1,5 @@
 # Issues
+[![Build Status](https://travis-ci.org/pepibumur/issues-backend.svg?branch=master)](https://travis-ci.org/pepibumur/issues-backend)
 
 ## Setup
 
