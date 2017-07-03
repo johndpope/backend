@@ -14,3 +14,5 @@
 
 ## References
 - [Ruby GraphQL](http://graphql-ruby.org/guides)
+- [Devise](https://github.com/plataformatec/devise)
+- [CanCan](https://github.com/ryanb/cancan)
