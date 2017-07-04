@@ -38,6 +38,7 @@ gem 'codecov', :require => false, :group => :test
 # Authentication
 gem 'devise'
 gem 'devise_token_auth'
+gem 'omniauth-github'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
