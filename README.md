@@ -1,6 +1,7 @@
 # Issues
 [![Build Status](https://travis-ci.org/pepibumur/issues-backend.svg?branch=master)](https://travis-ci.org/pepibumur/issues-backend)
 [![Dependency Status](https://gemnasium.com/badges/github.com/pepibumur/issues-backend.svg)](https://gemnasium.com/github.com/pepibumur/issues-backend)
+[![codecov](https://codecov.io/gh/pepibumur/issues-backend/branch/master/graph/badge.svg)](https://codecov.io/gh/pepibumur/issues-backend)
 
 ## Setup
 
