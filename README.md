@@ -13,6 +13,11 @@
 - Access the Vagrant machine with `vagrant ssh`
 - Voila :tada:, you can execute `bundle exec rails server` from there.
 
+## Useful commands
+
+- `bundle exec rails db:reset`: Deletes and setup the database.
+- `bundle exec rails db:migrate`: Migrates the database.
+
 ## References
 - [Ruby GraphQL](http://graphql-ruby.org/guides)
 - [Devise](https://github.com/plataformatec/devise)
