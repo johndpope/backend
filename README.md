@@ -22,3 +22,4 @@
 - [Ruby GraphQL](http://graphql-ruby.org/guides)
 - [Devise](https://github.com/plataformatec/devise)
 - [CanCan](https://github.com/ryanb/cancan)
+- [Rails DB tasks](http://jacopretorius.net/2014/02/all-rails-db-rake-tasks-and-what-they-do.html)
