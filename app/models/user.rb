@@ -4,4 +4,9 @@ class User < ApplicationRecord
 
   # Concerns
   include DeviseTokenAuth::Concerns::User
+
+  def token_validation_response
+    self.tokens
+  end
+
 end
