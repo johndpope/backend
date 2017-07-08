@@ -14,7 +14,7 @@ module Overrides
       sign_in(:user, @resource, store: false, bypass: false)
 
       if auth_hash["credentials"] && auth_hash["credentials"]["token"]
-        @resource.github_access_token = auth_hash["credentials"]["token"]
+        @resource.assign_attributes {"github_access_token": auth_hash["credentials"]["token"]}
       end
 
       @resource.save!
