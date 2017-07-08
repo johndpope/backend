@@ -18,6 +18,7 @@ gem "figaro"
 gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth-github'
+gem "cancancan"
 
 # Admin
 gem 'rails_admin', '~> 1.2'
