@@ -27,6 +27,7 @@ https://githubapp-backend.herokuapp.com/auth/github?auth_origin_url=https://gith
 
 ## References
 - [Ruby GraphQL](http://graphql-ruby.org/guides)
+- [GraphQL](http://graphql.org/learn/)
 - [Devise](https://github.com/plataformatec/devise)
 - [CanCan](https://github.com/ryanb/cancan)
 - [Rails DB tasks](http://jacopretorius.net/2014/02/all-rails-db-rake-tasks-and-what-they-do.html)

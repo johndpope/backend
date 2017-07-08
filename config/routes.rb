@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+root :to => 'index#index'
+
   # Devise
   devise_for :users
 
