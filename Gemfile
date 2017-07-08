@@ -19,6 +19,9 @@ gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth-github'
 
+# Admin
+gem 'rails_admin', '~> 1.2'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
