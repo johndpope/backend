@@ -18,6 +18,13 @@
 - `bundle exec rails db:reset`: Deletes and setup the database.
 - `bundle exec rails db:migrate`: Migrates the database.
 
+## Authentication
+You can authenticate using OAuth2 accessing the following link:
+
+```
+https://githubapp-backend.herokuapp.com/auth/github?auth_origin_url=https://githubapp-backend.herokuapp.com
+```
+
 ## References
 - [Ruby GraphQL](http://graphql-ruby.org/guides)
 - [Devise](https://github.com/plataformatec/devise)

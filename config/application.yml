@@ -1,2 +1,3 @@
 github_key: "91fe9a5ac7c381f1c652"
 github_secret: "70158f45ef33c36743f3da6ea5d9421e4c2b8e7c"
+base_url: "https://githubapp-backend.herokuapp.com"
