@@ -16,6 +16,7 @@ module Overrides
       @resource.save!
 
       yield @resource if block_given?
+      render_data_or_redirect('deliverCredentials', @auth_params.as_json, @resource.as_json)
     end
   end
 end
