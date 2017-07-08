@@ -22,7 +22,7 @@
 You can authenticate using OAuth2 accessing the following link:
 
 ```
-https://githubapp-backend.herokuapp.com/auth/github?auth_origin_url=https://githubapp-backend.herokuapp.com
+https://githubapp-backend.herokuapp.com/api/auth/github?auth_origin_url=https://githubapp-backend.herokuapp.com
 ```
 
 ## References
