@@ -14,10 +14,11 @@ gem 'codecov', :require => false, :group => :test
 # Utils
 gem "figaro"
 
-# Authentication
+# Users
 gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth-github'
+gem "rolify"
 
 # Admin
 gem 'rails_admin', '~> 1.2'

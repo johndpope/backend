@@ -1,4 +1,7 @@
 class User < ApplicationRecord
+  # Rolify
+  rolify
+
   # Devise
   devise :database_authenticatable, :registerable, :rememberable, :trackable, :omniauthable
 
