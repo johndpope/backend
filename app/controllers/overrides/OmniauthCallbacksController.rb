@@ -1,8 +1,6 @@
 module Overrides
   class OmniauthCallbacksController < DeviseTokenAuth::OmniauthCallbacksController
     def omniauth_success
-      logger.debug "auth_hash: #{auth_hash}"
-      logger.debug "omniauth_params: #{omniauth_params}"
       get_resource_from_auth_hash
       create_token_info
       set_token_on_resource
@@ -14,6 +12,10 @@ module Overrides
       end
 
       sign_in(:user, @resource, store: false, bypass: false)
+
+      if auth_hash["credentials"] && auth_hash["credentials"]["token"]
+        @resource.github_access_token = auth_hash["credentials"]["token"]
+      end
 
       @resource.save!
 
