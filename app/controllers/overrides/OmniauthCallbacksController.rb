@@ -1,6 +1,7 @@
 module Overrides
   class OmniauthCallbacksController < DeviseTokenAuth::OmniauthCallbacksController
     def omniauth_success
+      logger.debug auth_hash
       get_resource_from_auth_hash
       create_token_info
       set_token_on_resource
