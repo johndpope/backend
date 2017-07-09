@@ -297,7 +297,7 @@ DEPENDENCIES
   puma (~> 3.7)
   rails (~> 5.1.2)
   rails_admin (~> 1.2)
-  rolify
+  rolify (~> 5.1)
   rspec-rails (~> 3.5)
   selenium-webdriver
   spring

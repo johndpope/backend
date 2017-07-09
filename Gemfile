@@ -18,7 +18,7 @@ gem "figaro"
 gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth-github'
-gem "rolify"
+gem "rolify", "~> 5.1"
 
 # Admin
 gem 'rails_admin', '~> 1.2'
