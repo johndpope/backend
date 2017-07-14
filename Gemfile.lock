@@ -89,9 +89,6 @@ GEM
       railties (>= 3.2, < 5.2)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
-    graphiql-rails (1.4.2)
-      rails
-    graphql (1.6.4)
     haml (5.0.1)
       temple (>= 0.8.0)
       tilt
@@ -288,8 +285,6 @@ DEPENDENCIES
   devise
   devise_token_auth
   figaro
-  graphiql-rails
-  graphql
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   omniauth-github
