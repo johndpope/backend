@@ -1,4 +1,4 @@
-IssuesSchema = GraphQL::Schema.define do
+SourcerSchema = GraphQL::Schema.define do
   authorization(:cancan)
   query(Types::QueryType)
 end

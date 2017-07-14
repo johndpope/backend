@@ -1,11 +1,11 @@
-# Issues
-[![Build Status](https://travis-ci.org/pepibumur/issues-backend.svg?branch=master)](https://travis-ci.org/pepibumur/issues-backend)
-[![Dependency Status](https://gemnasium.com/badges/github.com/pepibumur/issues-backend.svg)](https://gemnasium.com/github.com/pepibumur/issues-backend)
-[![codecov](https://codecov.io/gh/pepibumur/issues-backend/branch/master/graph/badge.svg)](https://codecov.io/gh/pepibumur/issues-backend)
+# Sourcer
+[![Build Status](https://travis-ci.org/pepibumur/sourcer-backend.svg?branch=master)](https://travis-ci.org/pepibumur/sourcer-backend)
+[![Dependency Status](https://gemnasium.com/badges/github.com/pepibumur/sourcer-backend.svg)](https://gemnasium.com/github.com/pepibumur/sourcer-backend)
+[![codecov](https://codecov.io/gh/pepibumur/sourcer-backend/branch/master/graph/badge.svg)](https://codecov.io/gh/pepibumur/sourcer-backend)
 
 ## Setup
 
-- Git clone the project: `git clone https://github.com/pepibumur/issues-backend.git`
+- Git clone the project: `git clone https://github.com/pepibumur/sourcer-backend.git`
 - Excute `bundle install` in the project dir
 - Install Vagramt from [here](https://www.vagrantup.com/)
 - Install VirtualBox from [here](https://www.virtualbox.org/wiki/Downloads)
@@ -22,7 +22,7 @@
 You can authenticate using OAuth2 accessing the following link:
 
 ```
-https://issues-backend.herokuapp.com/api/auth/github?auth_origin_url=https://issues-backend.herokuapp.com
+https://sourcer-backend.herokuapp.com/api/auth/github?auth_origin_url=https://sourcer-backend.herokuapp.com
 ```
 
 ## References

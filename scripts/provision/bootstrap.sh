@@ -4,8 +4,8 @@
 source /backend/scripts/provision/functions.sh
 
 RUBY_VERSION="2.3.1"
-RUBY_GEMSET="issues-backend"
-HOSTNAME="issues-backend.dev"
+RUBY_GEMSET="sourcer-backend"
+HOSTNAME="sourcer-backend.dev"
 
 # System
 

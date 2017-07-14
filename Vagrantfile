@@ -5,12 +5,12 @@
 VAGRANTFILE_API_VERSION = '2'
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |vagrant|
-  vagrant.vm.define 'issues-backend' do |config|
+  vagrant.vm.define 'sourcer-backend' do |config|
     # Base box: Ubuntu 14.04 LTS Cloud Image
     config.vm.box = 'ubuntu/trusty64'
 
     # Host name
-    config.vm.host_name = 'issues-backend.dev'
+    config.vm.host_name = 'sourcer-backend.dev'
 
     # Provision via shell
     config.vm.provision 'shell', path: 'scripts/provision/bootstrap.sh', keep_color: true
