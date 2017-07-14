@@ -23,8 +23,7 @@ https://sourcer-backend.herokuapp.com/api/auth/github?auth_origin_url=https://so
 ```
 
 ## References
-- [Ruby GraphQL](http://graphql-ruby.org/guides)
-- [GraphQL](http://graphql.org/learn/)
+- [Rails API](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one)
 - [Devise](https://github.com/plataformatec/devise)
 - [CanCan](https://github.com/ryanb/cancan)
 - [Rails DB tasks](http://jacopretorius.net/2014/02/all-rails-db-rake-tasks-and-what-they-do.html)
