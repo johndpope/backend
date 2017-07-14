@@ -1,11 +1,8 @@
 # Sourcer
-[![Build Status](https://travis-ci.org/pepibumur/sourcer-backend.svg?branch=master)](https://travis-ci.org/pepibumur/sourcer-backend)
-[![Dependency Status](https://gemnasium.com/badges/github.com/pepibumur/sourcer-backend.svg)](https://gemnasium.com/github.com/pepibumur/sourcer-backend)
-[![codecov](https://codecov.io/gh/pepibumur/sourcer-backend/branch/master/graph/badge.svg)](https://codecov.io/gh/pepibumur/sourcer-backend)
 
 ## Setup
 
-- Git clone the project: `git clone https://github.com/pepibumur/sourcer-backend.git`
+- Git clone the project: `git clone https://github.com/carambalabs/sourcer-backend.git`
 - Excute `bundle install` in the project dir
 - Install Vagramt from [here](https://www.vagrantup.com/)
 - Install VirtualBox from [here](https://www.virtualbox.org/wiki/Downloads)
