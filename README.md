@@ -2,7 +2,7 @@
 
 ## Setup
 
-- Git clone the project: `git clone https://github.com/carambalabs/sourcer-backend.git`
+- Git clone the project: `git clone https://github.com/pepibumur/sourcer-backend.git`
 - Excute `bundle install` in the project dir
 - Install Vagramt from [here](https://www.vagrantup.com/)
 - Install VirtualBox from [here](https://www.virtualbox.org/wiki/Downloads)
